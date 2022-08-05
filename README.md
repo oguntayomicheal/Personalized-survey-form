@@ -1,3 +1,3 @@
 # Personalized-survey-form
-I have a short video presentation of the project on loom. Kindly click the link below.
-https://www.loom.com/share/d0e1b35899034bf1a7d4c4e7050f7319
+The survey form has been deployed to GitHub pages. Kindly click the link below to view:
+https://mike-devloper.github.io/Personalized-survey-form/
