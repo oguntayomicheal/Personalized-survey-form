@@ -2,17 +2,27 @@
 <html lang="en">
 <head>
 <title>Survey Form</title>
+<style>
+  body{
+    background-color: rgb(181, 238, 238);
+  }
+  img {
+    width: 500px;
+  }
+</style>  
 </head>
 <body>
   <section>
     <h1 id= "title">Survey Form</h1>
     <p id= "description">Survey form on cat</p>
     <figure>
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-        <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        <img src="https://lh3.googleusercontent.com/ndyKeka8YAehdd4TM4eSizBMGWGvEglS_fVlriqTY8U44AF0BWa3pOT6pB9bcZMs_tYq0IqjtXh8zh7n3QDgxBAk8xPW-Q4ADPMDelEkXl2kpnCJWWJu_-HN7jfXOKi0mwNDcDRGoE2zBSb2hiEiUv4RCMZGO2vzfKI7wPJ0SN-9rwAs_gJ439WqnzUodRPgNmQuAHvc5EMYLFV1xOYCz-HyNUBR6raCqVT_z4kI3QLIKU_NJtF-OCn6vQqLHYoufI9-ymMoJu00JVapSpXOwzxeaZUlfgCaYK3KWIIhexZSKIgKrBgjAJWYOgWk7dihYgh5jS-NhTGVsp6rdn8sgoaexKboWfn1LdY-lelcDnncOG7kcI69NYxWOZRCVjV_FU65TIRzipoIUKFV9wiEyG_hwwnDLB2L58Uj100smhm7DWTgTMgkfUoXIeU2hTVw4tusZoN18Xm_QiWcFgZwXDDYDpnnMsQu9WNS_K1sCi6zsHQ3fpaoUg9tyuJaH4ELHiBUuKEPkma5kodvxsocZwcrKnP-oBjj6u6b7O6uDBRRyinoJObT_3bQrVxwxZ0m45Deq70ANVAbNMV3dTJCq8t0GSStYGzUjKYzsz-wwJSrGDLVYANhiDrDa1uMRgv3R09_rzhWbFBrjIzAc1pEFurPSOWKGDR0F0WPB4Cpm3UMrW6z66RcYZ3vR0TRUkPI0qyZYpPAPzFtZ33OrMzIZrmyriXwLi9wvPqqo3sJcEWvtZK9BnkUEg49jHf_IA=w1414-h943-no?authuser=0" alt="A beautiful grey cat.">
+        <figcaption>A beautiful cat.</figcaption>  
       </figure>
   </section>
+  <hr>
   <section>
+    <h2>User information</h2>
     <form id="survey-form">
       <label  id="name-label">
 <input type="text" id="name" placeholder="name" required="required ">Name</label >
@@ -29,9 +39,10 @@
         </option>
         </select>
     </section>
+    <hr>
     <section>
         <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <form action="https://">
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
